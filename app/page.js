@@ -84,8 +84,8 @@ useEffect(()=>{
   Hi
   
  <img
-  src={`/face-${face}.png`}
-  alt="Animated Memoji"
+src={`/portfolio/face-${face}.png`}
+alt="Animated Memoji"
   className="memoji"
   style={{
     transform: `perspective(500px) rotateX(${faceTilt.x}deg) rotateY(${faceTilt.y}deg)`,
